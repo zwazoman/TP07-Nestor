@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fd1e42eeb2fabf409eb195d190a3212, type: 3}
-  m_Name: Adrien
+  m_Script: {fileID: 11500000, guid: 6963562fe9f15684f99a7ab42087f92e, type: 3}
+  m_Name: CircleProjectile
   m_EditorClassIdentifier: 
-  <Speed>k__BackingField: 400
-  <Bullet>k__BackingField: {fileID: 11400000, guid: f076a4b2689e0af4e9bc7d426ba2c4b4, type: 2}
-  <FireRate>k__BackingField: 1
+  <Prefab>k__BackingField: {fileID: 6797140412391704149, guid: 152ed9b728dde884aad95074273fc2a2, type: 3}
+  <Speed>k__BackingField: 600
+  <Scale>k__BackingField: 1

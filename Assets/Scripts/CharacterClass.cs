@@ -6,9 +6,11 @@ using UnityEngine;
 public class CharacterClass : ScriptableObject
 {
     [field: SerializeField]
-    public float speed { get; private set; }
+    public float Speed { get; private set; }
 
     [field: SerializeField]
+    public BulletClass Bullet { get; private set; }
 
-    public GameObject bullet { get; private set; }
+    [field: SerializeField]
+    public float FireRate { get; private set; }
 }
